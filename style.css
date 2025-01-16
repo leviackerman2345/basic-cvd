@@ -236,8 +236,9 @@ img {
 }
 .banner .banner__text p{
   margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
   text-align: justify;
+  font-family: 'inter', sans-serif;
 }
 
 @media screen and (max-width:500px){
@@ -288,13 +289,14 @@ img {
   font-weight: 600;
   color: #ffa700;
   line-height: 2;
+  margin-bottom: 4rem;
 }
 .aboutme .aboutme__text p {
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
   text-align: justify;
+  font-family: 'inter', sans-serif;
 }
-
 /* Mobileview */
 @media screen and (max-width:500px){
   .aboutme{
@@ -336,4 +338,5 @@ img {
 .btn.bg--primary{
   background: #ffa700;
 }
+
 
