@@ -267,6 +267,57 @@ img {
   }
 }
 
+/* SECTION3 */
+.aboutme {
+  padding-top: 10rem;
+}
+.aboutme .aboutme__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5rem;
+}
+.aboutme .aboutme__text h1{
+   font-size: 5rem;
+  font-weight: 00;
+  color: #ffa700;
+  line-height: 1;
+}
+.aboutme .aboutme__text p {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+/* Mobileview */
+@media screen and (max-width:500px){
+  .aboutme{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .aboutme .aboutme__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .aboutme .aboutme__text {
+    order: 2;
+  }
+  .aboutme .aboutme__text h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .aboutme .aboutme__text a {
+    display: flex;
+    width: fit-content;
+    margin: 0% auto;
+  }
+  .banner img {
+    width:20rem;
+    margin: 0 auto;
+  }
+}
+
 /* REPEATABLE PATTERNS */
 .btn{
   display: inline-block;
@@ -280,3 +331,4 @@ img {
 .btn.bg--primary{
   background: #ffa700;
 }
+
