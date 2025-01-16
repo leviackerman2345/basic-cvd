@@ -274,15 +274,20 @@ img {
 .aboutme .aboutme__wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  flex-direction: row-reverse;
   align-items: center;
   gap: 5rem;
 }
-.aboutme .aboutme__text h1{
-   font-size: 5rem;
-  font-weight: 00;
+.aboutme .aboutme__wrapper > :nth-child(1) {
+  order: 2;
+}
+.aboutme .aboutme__wrapper > :nth-child(2) {
+  order: 1;
+}
+.aboutme .aboutme__text h3{
+   font-size: 3rem;
+  font-weight: 600;
   color: #ffa700;
-  line-height: 1;
+  line-height: 2;
 }
 .aboutme .aboutme__text p {
   margin-top: 5rem;
@@ -303,7 +308,7 @@ img {
   .aboutme .aboutme__text {
     order: 2;
   }
-  .aboutme .aboutme__text h1 {
+  .aboutme .aboutme__text h3 {
     font-size: 3rem;
     text-align: center;
   }
@@ -312,7 +317,7 @@ img {
     width: fit-content;
     margin: 0% auto;
   }
-  .banner img {
+  .aboutme img {
     width:20rem;
     margin: 0 auto;
   }
