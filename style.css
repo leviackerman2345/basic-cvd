@@ -415,6 +415,7 @@ img {
   }
   .latest.latest__title h2{
     font-size:4rem;
+    
   }
   .latest .latest__wrapper{
     display: grid;
@@ -428,6 +429,109 @@ img {
   }
 }
 
+/* Contact */
+.free{
+  background: #ffa700;
+  padding: 5rem 0;
+}
+.free .free__wrapper{
+  display: grid;
+  margin-top: 3rem;
+}
+.free .free__wrapper h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.free .free__wrapper p{
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.free .free__wrapper a{
+  color: #ffffff;
+  background-color: #2b2b2b;
+  text-align: center;
+  max-width: 150px;
+  margin: 0 auto;
+  border-radius: 5rem;
+  padding: 1.5rem 2rem;
+}
+.free .free__wrapper a:hover{
+  scale: 1.1;
+}
+
+/* FOOTER */
+  .footer {
+    background: #2b2b2b;
+    width: 100%;
+  }
+  .footer .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .footer__social {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem;
+    gap: 5rem;
+  }
+  .footer .footer__wrapper ul li a {
+    color: dimgray;
+    font-size: 2.5rem;
+  }
+  .footer .footer__wrapper ul {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .footer p {
+    color: dimgray;
+    display: flex;
+    align-items: center;
+  }
+
+  /*mobview footer*/
+  @media screen and (max-width: 500px) {
+    .footer .footer__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+/* MOBVIEW contact*/
+@media screen and (max-width: 500px){
+  .free{
+  background: #ffa700;
+}
+.free .free__wrapper{
+  display: grid;
+  margin-top: 3rem;
+}
+.free .free__wrapper h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.free .free__wrapper p{
+  text-align: center;
+  padding-bottom: 4rem
+}
+.free .free__wrapper a{
+  color: #ffffff;
+  background-color: #2b2b2b;
+  text-align: center;
+  max-width: 120px;
+  margin: 0 auto;
+  border-radius: 5rem;
+  padding: 1.5rem 2rem;
+
+}
+
+
+
+}
 /* REPEATABLE PATTERNS */
 .btn{
   display: inline-block;
@@ -441,5 +545,3 @@ img {
 .btn.bg--primary{
   background: #ffa700;
 }
-
-
