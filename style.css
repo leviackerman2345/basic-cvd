@@ -218,7 +218,7 @@ img {
 
 /* BANNER */
 .banner{
-  padding-top: 13rem;
+  padding-top: 15rem;
   padding-bottom: 5rem;
   background: #ffffff;
 }
@@ -271,6 +271,8 @@ img {
 /* SECTION3 */
 .aboutme {
   padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: #ffffff;
 }
 .aboutme .aboutme__wrapper{
   display: grid;
@@ -285,7 +287,7 @@ img {
   order: 1;
 }
 .aboutme .aboutme__text h3{
-   font-size: 3rem;
+   font-size: 2rem;
   font-weight: 600;
   color: #ffa700;
   line-height: 2;
@@ -296,6 +298,7 @@ img {
   margin-bottom: 3rem;
   text-align: justify;
   font-family: 'inter', sans-serif;
+
 }
 /* Mobileview */
 @media screen and (max-width:500px){
