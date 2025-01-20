@@ -633,13 +633,11 @@ img {
   color: #ffa700;
   padding: 1rem;
 }
-
-@media screen and (max-width: 500px) {
   .about .angle {
     font-size: 3rem;  
     animation: bounce 1s infinite; 
   }
-}
+
 
 /* recent project  */
 
@@ -723,9 +721,6 @@ img {
     }
     .about .about__text .about__links {
       justify-items: center;
-    }
-    .about .angle{
-  
     }
   }
 
