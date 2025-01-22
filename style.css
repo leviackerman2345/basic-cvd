@@ -748,380 +748,95 @@ img {
 
 
 /* ######################  P A G E 3 #################### */
+/* ######################  P A G E 3 #################### */
+/* ######################  P A G E 3 #################### */
+/* ######################  P A G E 3 #################### */
 
-
-/* DEVELOPMENT SEC  */
-
-.development__wrapper{
-  display: flex;
-  padding-top: 20rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: center;
-  gap: 5rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+.services {
+  padding-top: 15rem;
+  background: white;
 }
-.development__title h1 {
-    font-size: 8rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 2rem;
-    line-height: 1;
-    padding-bottom: 7rem;
-    
+.services .fa-solid {
+  display: grid;
+  justify-items: center;
+  color: #ffa700;
+  font-size: 3rem;
+  padding-bottom: 3rem;
 }
-
-.paragraph1{
-  text-align: justify;
-  padding-bottom: 2rem;
-  
+.services__item {
+  padding: 5rem 0;
 }
-
-
-.pricetag{
-    font-size: 4rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 1rem;
-}
-
-.p11 {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-.p2{
-  padding-bottom: 1rem;
-}
-
-
-
-.down {
-  display: block;
-  margin: 2rem auto; 
-  padding: 1rem;
-  background-color: transparent; 
-  border: none;
-  font-size: 4rem;
-  text-align: center;
-  cursor: pointer;
-  max-width: 100px;
-  color: #ffa700;}
-
-/* ###### GRAPHIC ###### */
-
-.graphic {
+.services__item:nth-child(even) {
   background: #2b2b2b;
 }
-.graphic__wrapper{
-  display: flex;
-  max-width: 1200px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin: 0 auto;
+.services__item:nth-child(even) .development__text {
+  order: 2;
+}
+.services__item:nth-child(even) p, 
+.services__item:nth-child(even) h6 {
+  color: white;
+}
+
+
+.services .development__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 5rem;
-  padding-top: 10rem;
-  flex-direction: row-reverse;
-  padding-bottom: 4rem;
-}
-
-.graphic .graphic__title h1{
-  font-size: 8rem;
- font-weight: 600;
-    color: #ffa700;
-    line-height: 1;
-    padding-bottom: 7rem;
-}
-
-.par2{
-  text-align: justify;
-  padding-bottom: 2rem;
-  color: #ffffff;
-}
-
-.mahal{
-    font-size: 4rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 1rem;
-}
-.pricey {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #ffffff;
-}
-
-.sobra{
-  padding-bottom: 1rem;
-  color: #ffffff;
-}
-
-.graphic .down {
-  display: block;
-  margin: 2rem auto; 
-  padding: 1rem;
-  background-color: transparent; 
-  border: none;
-  font-size: 4rem;
-  text-align: center;
-  cursor: pointer;
-  max-width: 100px;
-  color: #ffa700;
-}
-
-/* #### SOCIAL #### */
-.social__wrapper{
-  display: flex;
-  padding-top: 7rem;
-  max-width: 1200px;
+  max-width: 117rem;
   margin: 0 auto;
-  align-items: center;
-  gap: 5rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
 }
-.social__title h1 {
-    font-size: 8rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 2rem;
-    line-height: 1;
-    padding-bottom: 7rem;
-    
-}
-
-.pogi{
-  text-align: justify;
-  padding-bottom: 2rem;
-  
-}
-
-
-.presyo{
-    font-size: 4rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 1rem;
-}
-
-.magkano {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-.sobra{
-  padding-bottom: 1rem;
-}
-
-.social__content .down {
-  display: block;
-  margin: 2rem auto; 
-  padding: 1rem;
-  background-color: transparent; 
-  border: none;
-  font-size: 4rem;
-  text-align: center;
-  cursor: pointer;
-  max-width: 100px;
+.services .development__text h2 {
   color: #ffa700;
+  font-size: 5rem;
+  font-weight: 600;
 }
-
-
-
-/* ###SECTION 3 - MOBILE ### */
-
-/* DEVELOPMENT  */
-  @media screen and (max-width: 500px){
-    .development__wrapper{
-      display: grid;
-      grid-template-columns: 1fr;
-      padding-left: 2rem;
-      padding-right: 2rem;}
-
-      .development__title h1 {
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom:2rem;
-    }
-
-  .development__wrapper img {
-    width: 20rem;
-      margin: 0 auto;
-      order: 2;
-  }  
-  .development__wrapper {
-      display: flex;
-      flex-direction: column-reverse; /* Reverses the order: image above, title and text below */
-  }
-  
-  .paragraph1{
+.services .development__text p {
+  margin-top: 3rem;
   text-align: justify;
-  padding-bottom: 2rem;
-  margin: 0 auto;
-  
+}
+.services .development__text h3 {
+  font-size: 3rem;
+  color: #ffa700;
+  font-weight: 530;
+}
+.services .development__text h6 {
+  font-size: 1rem;
+}
+.services .services__item:last-child a {
+  display: none;
 }
 
-
-.pricetag{
-    font-size: 4rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 1rem;
-    text-align: center;
-}
-
-.p11 {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-align: center;
-}
-.p2{
-  padding-bottom: 1rem;
-  text-align: center;
-}
-
-.angle{
-  padding-top: 6rem;
-  padding-bottom: 5rem;
-}
-}
-
-/* GRAPHIC  */
-@media screen and (max-width: 500px) {
-  .graphic__wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+@media screen and (max-width:500px) {
+  .services__item {
     padding-left: 2rem;
     padding-right: 2rem;
-    margin:0 auto;
   }
-
- .graphic .graphic__title h1{
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom:2rem;
+  .services__item .development__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
   }
-
-  .graphic__wrapper img {
-    width: 20rem;
-    margin: 0 auto;
+  .services__item .development__text {
     order: 2;
   }
-
-  .graphic__wrapper {
-    display: flex;
-    flex-direction: column-reverse;  
-  }
-.par2{
-  text-align: justify;
-  padding-bottom: 2rem;
-  color: #ffffff;
-}
-
-.mahal{
+  .services__item h2 {
     font-size: 4rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 1rem;
     text-align: center;
-}
-.pricey {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #ffffff;
-    text-align: center;
-}
-
-.sobra{
-  padding-bottom: 1rem;
-  color: #ffffff;
-  text-align: center;
-}
-
-.angle{
-  font-size: 4rem;
-  padding-bottom: 2rem;
-  margin: 0 auto;
-}
-
-}
-
-/* SOCIAL  */
-  @media screen and (max-width: 500px){
-    .social__wrapper{
-      display: grid;
-      grid-template-columns: 1fr;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      padding-top: 2rem;
-    }
-
-    .social__title h1 {
-      text-align: center;
-      font-size: 3rem;
-      padding-bottom:2rem;
-    }
-
-    .social__wrapper img {
-      width: 20rem;
-      margin: 0 auto;
-      order: 2;
-    }  
-
-    .social__wrapper {
-      display: flex;
-      flex-direction: column-reverse; 
-    }
-   
-.pogi{
-  text-align: justify;
-  padding-bottom: 1rem;
-  margin: 0 auto;
-  
-}
-.angle{
- justify-items: center;
-}
-
-.presyo{
-    font-size:4rem;
-    font-weight: 600;
-    color: #ffa700;
-    padding-bottom: 1rem;
-    text-align: center;
-}
-
-.magkano {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-align: center;
-}
-.sanaol{
-  padding-bottom: 1rem;
-  text-align: center;
-}
-
-.angle{
-  padding-top: 6rem;
-  padding-bottom: 5rem;
-}
-
   }
+  .services__item p, .services__item h6 {
+    text-align: center;
+  }
+  .services__item h3 {
+    font-size: 2.5rem;
+  }
+  .services__item img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}
 
 
 
-
-
-
-  /* REPEATABLE PATTERNS */
 
 .btn {
   display: inline-block;
@@ -1135,5 +850,159 @@ img {
 .btn.bg--primary {
   background: #ffa700;
 }
+
+
+/* ### test ###  */
+/* ### Main Update Section ### */
+
+ .update .trend__post{
+  border-bottom: 1px solid #2b2b2b;
+} 
+.update .trend__post:not(:first-child){
+  padding: 3rem 0;
+}
+.update .trend__post:last-child{
+  border-bottom: none;
+
+}
+
+
+.update .update__item{
+  border-bottom: 1px solid #2b2b2b;
+}
+.update .update__item:not(:first-child){
+  padding: 3rem 0;
+}
+.update .update__item:last-child{
+  border-bottom: none;
+
+}
+.update .update__item h4{
+  color: #ffa700;
+  font-size:2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.update .update__item table{
+  /* background: pink; */
+  width:100%;
+}
+.update .update__item table tr{
+  height:5rem;
+}
+.update .update__item .update__item__content{
+  display:flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.update .update__item ul{
+  /* background: pink; */
+  display: flex;
+  max-width: 40rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.update .update__item ul li a{
+  display: inline-block;
+  border:1px solid #2b2b2b;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  color: black;
+}
+
+
+
+.update .container {
+   display: grid;
+   grid-template-columns: 2.5fr 1.5fr;
+   grid-gap:5rem;
+  }
+
+/* ### Trends Section ### */
+.trend__wrapper {
+    padding-top: 13rem;
+}
+
+.intro {
+    color: #ffa700;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.parabola {
+    padding-bottom: 2rem;
+}
+
+/* ### Trend Post Content ### */
+.trend__post ul {
+    display: flex;            
+    gap: 15px;                
+    list-style: none;         
+    padding: 0;               
+    margin: 0;                
+}
+
+.trend__post ul li {
+    display: flex;            
+    align-items: center;     
+    padding-bottom: 1rem; 
+}
+
+.trend__post ul li a {
+    text-decoration: none;    
+    color: #333;             
+}
+
+.trend__post h2 {
+    color: #ffa700;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+.trend__post p {
+    max-width: 719px;
+}
+
+/* ### Separator Line ### */
+.separator {
+    border: 0;
+    border-top: 3px solid #ccc; 
+    margin: 20px 0; 
+    max-width: 719px;
+}
+
+/* ### Sidebar Section ### */
+.sidepannel {
+    flex: 1;  
+    padding-top: 15rem;
+}
+
+
+/* ### Trend Post Layout ### */
+.trend__post {
+    margin-bottom: 30px;
+}
+
+.trend__post a {
+    color: #ffa700;
+}
+
+.trend__post p {
+    padding-bottom: 3rem;
+}
+
+.trend__post img {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.update .update__item ul li a:hover {
+    background-color: #2b2b2b; 
+    color: white; 
+}
+
 
 
